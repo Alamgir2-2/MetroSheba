@@ -17,7 +17,7 @@ export default function HeroSection() {
   }, []);
 
   const stats = [
-    { icon: <FaMapMarkerAlt className="w-5 h-5" />, value: "21", label: "Stations" },
+    { icon: <FaMapMarkerAlt className="w-5 h-5" />, value: "16", label: "Stations" },
     { icon: <FaClock className="w-5 h-5" />, value: "2min", label: "Avg Wait" },
     { icon: <FaStar className="w-5 h-5" />, value: "4.9", label: "Rating" }
   ];
@@ -36,7 +36,7 @@ export default function HeroSection() {
         <div className="h-full w-full bg-grid-pattern"></div>
       </div>
 
-      <div className="relative mt-5 max-w-7xl mx-auto px-6 py-20 flex flex-col-reverse lg:flex-row items-center gap-16">
+      <div className="relative max-w-7xl mx-auto px-6 py-20 flex flex-col lg:flex-row items-center gap-16">
         
         {/* Text Section */}
         <div className={`flex-1 text-center lg:text-left transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
